@@ -1,0 +1,56 @@
+[roslaunch][INFO] 2019-04-02 21:27:00,076: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-04-02 21:27:00,079: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-04-02 21:27:00,079: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2019-04-02 21:27:00,079: roslaunch env is {'ROS_DISTRO': 'indigo', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'CPATH': '/opt/ros/indigo/include', 'ROS_PACKAGE_PATH': '/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/opt/ros/indigo', 'LD_LIBRARY_PATH': '/opt/ros/indigo/lib', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'ROS_LOG_FILENAME': '/home/developer/.ros/log/0cd58b14-558e-11e9-bb90-0242ac110002/roslaunch-9fe54ba3caf9-122.log', 'ROS_MASTER_URI': 'http://localhost:11311', 'HOME': '/home/developer', 'PYTHONPATH': '/opt/ros/indigo/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/indigo/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/indigo/bin/roscore', 'HOST_UID': '1000', 'HOST_GID': '1000', 'HOSTNAME': '9fe54ba3caf9', 'PWD': '/home/developer', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros'}
+[roslaunch][INFO] 2019-04-02 21:27:00,079: starting in server mode
+[roslaunch.parent][INFO] 2019-04-02 21:27:00,079: starting roslaunch parent run
+[roslaunch][INFO] 2019-04-02 21:27:00,080: loading roscore config file /opt/ros/indigo/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-04-02 21:27:00,191: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,191: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,191: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,191: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-04-02 21:27:00,191: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-04-02 21:27:00,192: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-04-02 21:27:00,192: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-04-02 21:27:00,192: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-04-02 21:27:00,192: Started XML-RPC server [http://9fe54ba3caf9:40545/]
+[xmlrpc][INFO] 2019-04-02 21:27:00,192: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-04-02 21:27:00,204: started roslaunch server http://9fe54ba3caf9:40545/
+[roslaunch.parent][INFO] 2019-04-02 21:27:00,204: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-04-02 21:27:00,204: master.is_running[http://9fe54ba3caf9:11311/]
+[roslaunch][INFO] 2019-04-02 21:27:00,205: auto-starting new master
+[roslaunch][INFO] 2019-04-02 21:27:00,205: create_master_process: rosmaster, /opt/ros/indigo/share/ros, 11311, 3, None
+[roslaunch][INFO] 2019-04-02 21:27:00,205: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,205: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,205: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2019-04-02 21:27:00,206: process[master]: starting os process
+[roslaunch][INFO] 2019-04-02 21:27:00,206: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/developer/.ros/log/0cd58b14-558e-11e9-bb90-0242ac110002/master.log']]
+[roslaunch][INFO] 2019-04-02 21:27:00,206: process[master]: cwd will be [/home/developer/.ros]
+[roslaunch][INFO] 2019-04-02 21:27:00,439: process[master]: started with pid [133]
+[roslaunch][INFO] 2019-04-02 21:27:00,439: master.is_running[http://9fe54ba3caf9:11311/]
+[roslaunch][INFO] 2019-04-02 21:27:00,539: master.is_running[http://9fe54ba3caf9:11311/]
+[roslaunch][INFO] 2019-04-02 21:27:00,541: master.is_running[http://9fe54ba3caf9:11311/]
+[roslaunch][INFO] 2019-04-02 21:27:00,542: ROS_MASTER_URI=http://9fe54ba3caf9:11311/
+[roslaunch][INFO] 2019-04-02 21:27:00,543: setting /run_id to 0cd58b14-558e-11e9-bb90-0242ac110002
+[roslaunch][INFO] 2019-04-02 21:27:00,544: setting /roslaunch/uris/host_9fe54ba3caf9__40545' to http://9fe54ba3caf9:40545/
+[roslaunch][INFO] 2019-04-02 21:27:00,546: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2019-04-02 21:27:00,546: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://9fe54ba3caf9:11311/]
+[roslaunch][INFO] 2019-04-02 21:27:00,546: process[rosout-1]: env[{'ROS_DISTRO': 'indigo', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'CPATH': '/opt/ros/indigo/include', 'ROS_PACKAGE_PATH': '/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/opt/ros/indigo', 'ROS_LOG_FILENAME': '/home/developer/.ros/log/0cd58b14-558e-11e9-bb90-0242ac110002/roslaunch-9fe54ba3caf9-122.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/indigo/lib', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'HOME': '/home/developer', 'PYTHONPATH': '/opt/ros/indigo/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/indigo/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/indigo/bin/roscore', 'HOST_UID': '1000', 'HOST_GID': '1000', 'HOSTNAME': '9fe54ba3caf9', 'PWD': '/home/developer', 'ROS_MASTER_URI': 'http://9fe54ba3caf9:11311/'}]
+[roslaunch][INFO] 2019-04-02 21:27:00,561: process[rosout-1]: args[[u'/opt/ros/indigo/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2019-04-02 21:27:00,561: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,561: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,561: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2019-04-02 21:27:00,561: ... registered process [rosout-1]
+[roslaunch][INFO] 2019-04-02 21:27:00,561: process[rosout-1]: starting os process
+[roslaunch][INFO] 2019-04-02 21:27:00,562: process[rosout-1]: start w/ args [[u'/opt/ros/indigo/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/developer/.ros/log/0cd58b14-558e-11e9-bb90-0242ac110002/rosout-1.log']]
+[roslaunch][INFO] 2019-04-02 21:27:00,562: process[rosout-1]: cwd will be [/home/developer/.ros]
+[roslaunch][INFO] 2019-04-02 21:27:00,794: process[rosout-1]: started with pid [146]
+[roslaunch][INFO] 2019-04-02 21:27:00,794: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2019-04-02 21:27:00,794: load_parameters starting ...
+[roslaunch][INFO] 2019-04-02 21:27:00,797: ... load_parameters complete
+[roslaunch][INFO] 2019-04-02 21:27:00,797: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-04-02 21:27:00,797: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-04-02 21:27:00,797: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 139661505627904)>
+[roslaunch.parent][INFO] 2019-04-02 21:27:00,797: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-04-02 21:27:00,797: spin

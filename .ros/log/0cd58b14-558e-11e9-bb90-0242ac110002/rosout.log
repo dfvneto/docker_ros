@@ -1,0 +1,26 @@
+
+
+1554240420.802906891  Node Startup
+1554241456.857615947 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554241499.234605073 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554241563.726039213 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-27-26.bag
+1554241702.906176514 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-25-49.bag
+1554241771.054641962 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554241773.962132557 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-25-49.bag
+1554241840.346482992 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554241853.153888222 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-26-56.bag
+1554242045.665863037 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242058.958973445 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-27-12.bag
+1554242177.115078926 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242179.470307605 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-27-46.bag
+1554242261.526802062 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242261.685803034 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-27-46.bag
+1554242316.872180938 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242326.054834663 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-28-06.bag
+1554242473.824239969 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242484.053792489 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-28-06.bag
+1554242526.036381006 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242528.832679662 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-28-21.bag
+1554242556.431010961 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242578.929219961 INFO [depth_extract:56(<module>) [topics: /rosout, /camera/depth/image_raw] Running depth Grabber
+1554242581.142383753 INFO [/tmp/binarydeb/ros-indigo-rosbag-1.11.21/src/player.cpp:125(Player::publish) [topics: /rosout, /clock] Opening 2019-04-02-18-28-21.bag

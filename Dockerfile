@@ -7,6 +7,8 @@ RUN apt-get update \
     build-essential \ 
     ros-indigo-cv-bridge \
     ros-indigo-vision-opencv \
+	ros-indigo-openni-* \
+	ros-indigo-freenect* \
     python-pip \
     cmake \
     sudo \

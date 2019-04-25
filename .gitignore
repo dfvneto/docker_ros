@@ -2,3 +2,4 @@
 extracted_bags/
 bags/
 .ros/
+.bash_history

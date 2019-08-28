@@ -1,15 +1,11 @@
-FROM ros:indigo-robot
-
-
+FROM ros:kinetic-robot
 
 RUN apt-get update \
     && apt-get install -y \
     build-essential \ 
     ros-indigo-cv-bridge \
     ros-indigo-vision-opencv \
-	ros-indigo-openni-* \
-	ros-indigo-freenect* \
-    python-pip \
+    python3-pip \
     cmake \
     sudo \
     && apt-get -y autoremove && apt-get -y clean

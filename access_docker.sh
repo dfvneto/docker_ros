@@ -1,4 +1,3 @@
-
 docker run \
         -ti \
         --rm \

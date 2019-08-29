@@ -87,22 +87,44 @@ git clone https:://github.com/dfvneto/docker_ros.git
 ```sh
 ./build.sh
 ```
-3. Access Container
-```sh
-./access_docker.sh
-```
-4. Run 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+After step 2, your docker image should have been built correctly. Now we have to access it:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Accessing Docker Container
+```sh
+./access_docker.sh
+```
+2. Now we can run our `roscore` node inside the container
+```sh
+roscore
+```
+*Note that our terminal is "locked", so we need to access our container through another terminal.*
 
+3. Open another terminal on the root folder and run:
+```sh
+docker ps
+```
+Look for the container ID of our recently created image `ros_kinetic:$USER`.
 
+4. Using the container ID run:
+```sh
+./new_view.sh DOCKER_ID
+```
+When inside the docker, you'll notice that the ros commands aren't available to us. We need to source the `setup.bash` file from ros sources.
 
+5. To source our commands, simply run:
+```sh
+source /opt/ros/kinetic/setup.bash
+``` 
+Now we are ready to try our container. On the first view of our container, roscore should be already running. On our second view we can try `rostopic list` to see if we can see `/rosout` and `/ros_agg` topics. The expected output should be:
+```sh
+/rosout
+/rosout_agg
+```
 <!-- ROADMAP -->
 ## Roadmap
 

@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dfvneto/docker_ros">
-    <img src="/home/dfvneto/docker_ros/readme_srcs/docker.png" alt="Logo" width="" height="">
+    <img src="./readme_srcs/docker.png" alt="Logo" width="" height="">
   </a>
   <p align="center">
     Docker script to build ROS docker image 

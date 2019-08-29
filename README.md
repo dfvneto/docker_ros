@@ -164,6 +164,6 @@ Project Link: [https://github.com/dfvneto/docker_ros](https://github.com/dfvneto
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []() To my Professor Cajahyba, who taught me everything that I know about Docker.
+* []() To my teacher, Cajahyba, who taught me everything that I know about Docker.
 <!-- * []()
 * []() -->

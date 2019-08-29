@@ -54,23 +54,44 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+You need to install Docker. For a more detailed explanation about Docker and Containers see: https://www.docker.com/get-started
+* Docker installation
 ```sh
-npm install npm@latest -g
-```
+sudo apt-get -y install curl apt-transport-https ca-certificates software-properties-common
 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+sudo apt-get update
+
+sudo apt-get install docker-compose docker docker-ce
+```
+* Use docker without `sudo` (optional)
+```sh
+sudo groupadd docker
+
+sudo usermod -aG docker $USER
+
+su - ${USER}
+
+id -nG
+```
 ### Installation
  
 1. Clone the docker_ros
 ```sh
 git clone https:://github.com/dfvneto/docker_ros.git
 ```
-2. Install NPM packages
+2. Build Docker Image
 ```sh
-npm install
+./build.sh
 ```
-
+3. Access Container
+```sh
+./access_docker.sh
+```
+4. Run 
 
 
 <!-- USAGE EXAMPLES -->

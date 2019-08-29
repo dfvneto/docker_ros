@@ -1,4 +1,3 @@
-
 echo "Building base docker image..."
 
 if ! docker build \

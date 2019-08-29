@@ -92,7 +92,7 @@ git clone https:://github.com/dfvneto/docker_ros.git
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After step 2, your docker image should have been built correctly. Now we have to access it:
+After installation, your docker image should have been built correctly. Now we have to access it:
 
 1. Accessing Docker Container
 ```sh

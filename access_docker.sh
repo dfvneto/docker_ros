@@ -3,4 +3,4 @@ docker run \
         --rm \
         -v $(pwd):/home/developer \
         --privileged \
-ros_indigo:domingos bash
+ros_kinetic:$USER bash

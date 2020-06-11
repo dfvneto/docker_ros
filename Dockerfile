@@ -31,5 +31,4 @@ ENV HOME /home/developer
 USER developer
 WORKDIR /home/developer
 CMD bash
-RUN roscore
 

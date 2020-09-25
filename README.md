@@ -106,7 +106,7 @@ roscore
 ```sh
 docker ps
 ```
-Look for the container ID of our recently created image `ros_kinetic:$USER`.
+Look for the container ID of our recently created image `ros_melodic:$USER`.
 
 4. Using the container ID run:
 ```sh
@@ -116,7 +116,7 @@ When inside the docker, you'll notice that the ros commands aren't available to 
 
 5. To source our commands, simply run:
 ```sh
-source /opt/ros/kinetic/setup.bash
+source /opt/ros/melodic/setup.bash
 ``` 
 Now we are ready to try our container. On the first view of our container, roscore should be already running. On our second view we can try `rostopic list` to see if we can see `/rosout` and `/ros_agg` topics. The expected output should be:
 ```sh
